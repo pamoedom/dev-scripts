@@ -96,6 +96,8 @@ cat <<EOF
     provisioningBridge: ${PROVISIONING_NETWORK_NAME}
     provisioningNetworkCIDR: $PROVISIONING_NETWORK
     provisioningNetworkInterface: $CLUSTER_PRO_IF
+    bootstrapExternalStaticIP: "192.168.111.9"
+    bootstrapExternalStaticGateway: "192.168.111.1"
 EOF
   fi
 }
